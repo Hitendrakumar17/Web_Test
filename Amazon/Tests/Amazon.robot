@@ -9,7 +9,7 @@ Test Teardown  common.End Web Test
 # pybot -d Results/ Amazon/Tests
 
 *** Variables ***
-${BROWSER} =  ie
+${BROWSER} =  ff
 ${START_URL} =  http://www.amazon.com
 ${SEARCH_TERM} =  Ferrari 458
 

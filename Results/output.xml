@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170606 10:07:06.833" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<robot generated="20170609 17:19:07.872" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
 <suite source="C:\Development\Robot\Web_Test\Amazon\Tests" id="s1" name="Tests">
 <suite source="C:\Development\Robot\Web_Test\Amazon\Tests\Amazon.robot" id="s1-s1" name="Amazon">
 <test id="s1-s1-t1" name="Guest must sign in to check out">
@@ -10,10 +10,10 @@
 <arg>${START_URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20170606 10:07:06.994" level="INFO">Opening browser 'ie' to base url 'http://www.amazon.com'</msg>
-<status status="PASS" endtime="20170606 10:07:20.862" starttime="20170606 10:07:06.993"></status>
+<msg timestamp="20170609 17:19:08.005" level="INFO">Opening browser 'ie' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170609 17:19:19.954" starttime="20170609 17:19:08.005"></status>
 </kw>
-<status status="PASS" endtime="20170606 10:07:20.863" starttime="20170606 10:07:06.993"></status>
+<status status="PASS" endtime="20170609 17:19:19.954" starttime="20170609 17:19:08.005"></status>
 </kw>
 <kw name="Search for Product" library="main">
 <kw name="Wait Until Page Contains" library="Selenium2Library">
@@ -21,7 +21,7 @@
 <arguments>
 <arg>Your Amazon.com</arg>
 </arguments>
-<status status="PASS" endtime="20170606 10:07:21.096" starttime="20170606 10:07:20.863"></status>
+<status status="PASS" endtime="20170609 17:19:20.103" starttime="20170609 17:19:19.955"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -29,39 +29,39 @@
 <arg>id=twotabsearchtextbox</arg>
 <arg>${SEARCH_TERM}</arg>
 </arguments>
-<msg timestamp="20170606 10:07:21.097" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'</msg>
-<status status="PASS" endtime="20170606 10:07:21.880" starttime="20170606 10:07:21.096"></status>
+<msg timestamp="20170609 17:19:20.103" level="INFO">Typing text 'Ferrari 458' into text field 'id=twotabsearchtextbox'</msg>
+<status status="PASS" endtime="20170609 17:19:20.869" starttime="20170609 17:19:20.103"></status>
 </kw>
 <kw name="Click Button" library="Selenium2Library">
 <doc>Clicks a button identified by `locator`.</doc>
 <arguments>
 <arg>xpath=//*[@id="nav-search"]/form/div[2]/div/input</arg>
 </arguments>
-<msg timestamp="20170606 10:07:21.881" level="INFO">Clicking button 'xpath=//*[@id="nav-search"]/form/div[2]/div/input'.</msg>
-<status status="PASS" endtime="20170606 10:07:29.455" starttime="20170606 10:07:21.881"></status>
+<msg timestamp="20170609 17:19:20.870" level="INFO">Clicking button 'xpath=//*[@id="nav-search"]/form/div[2]/div/input'.</msg>
+<status status="PASS" endtime="20170609 17:19:25.156" starttime="20170609 17:19:20.870"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="Selenium2Library">
 <doc>Waits until `text` appears on current page.</doc>
 <arguments>
 <arg>results for "${SEARCH_TERM}"</arg>
 </arguments>
-<status status="PASS" endtime="20170606 10:07:29.658" starttime="20170606 10:07:29.455"></status>
+<status status="PASS" endtime="20170609 17:19:25.332" starttime="20170609 17:19:25.156"></status>
 </kw>
-<status status="PASS" endtime="20170606 10:07:29.658" starttime="20170606 10:07:20.863"></status>
+<status status="PASS" endtime="20170609 17:19:25.332" starttime="20170609 17:19:19.955"></status>
 </kw>
 <kw type="teardown" name="End Web Test" library="common">
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170606 10:07:32.839" starttime="20170606 10:07:29.659"></status>
+<status status="PASS" endtime="20170609 17:19:28.502" starttime="20170609 17:19:25.333"></status>
 </kw>
-<status status="PASS" endtime="20170606 10:07:32.840" starttime="20170606 10:07:29.659"></status>
+<status status="PASS" endtime="20170609 17:19:28.502" starttime="20170609 17:19:25.332"></status>
 </kw>
 <doc>This is the first test case</doc>
-<status status="PASS" endtime="20170606 10:07:32.841" critical="yes" starttime="20170606 10:07:06.992"></status>
+<status status="PASS" endtime="20170609 17:19:28.502" critical="yes" starttime="20170609 17:19:08.005"></status>
 </test>
-<status status="PASS" endtime="20170606 10:07:32.846" starttime="20170606 10:07:06.856"></status>
+<status status="PASS" endtime="20170609 17:19:28.502" starttime="20170609 17:19:07.888"></status>
 </suite>
-<status status="PASS" endtime="20170606 10:07:32.858" starttime="20170606 10:07:06.836"></status>
+<status status="PASS" endtime="20170609 17:19:28.519" starttime="20170609 17:19:07.872"></status>
 </suite>
 <statistics>
 <total>
